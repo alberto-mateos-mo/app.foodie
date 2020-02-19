@@ -1,0 +1,21 @@
+Package: app.foodie
+Title: app.foodie
+Version: 0.0.0.9000
+Authors@R: person('David', 'Mateos', email = 'cldav.privmath@gmail.com', role = c('cre', 'aut'))
+Description: A foodie's journal.
+License: CCBY-4.0
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    shiny,
+    golem,
+    processx,
+    attempt,
+    DT,
+    glue,
+    htmltools
+RoxygenNote: 6.1.0
+URL: https://github.com/alberto-mateos-mo/app.foodie.git
+BugReports: https://github.com/alberto-mateos-mo/app.foodie.git/issues
+Suggests: 
+    testthat
